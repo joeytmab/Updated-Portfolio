@@ -1,7 +1,17 @@
-# Professional-Portfolio
+<h1 align="center">Joey's Professional Portfolio</h1>
 
-Professional Portfolio Template.
+## Description
 
-Languages used: HTML, CSS, and JS.
+Professional Portfolio containing bio, my work history, resume, and contact information.
 
-Link to Portfolio: https://joeytmab.github.io/Professional-Portfolio/
+Technologies used include HTML, CSS, and JS.
+
+## Deployed Link
+
+[Click here to visit my portfolio.](https://joeytmab.github.io/Professional-Portfolio/)
+
+## Questions? Comments?
+
+Contact me on Github or via email! </br>
+Github: [github.com/joeytmab](github.com/joeytmab) </br>
+Email: [joseph.t.binas@gmail.com](joseph.t.binas@gmail.com)
