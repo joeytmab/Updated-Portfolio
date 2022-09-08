@@ -217,15 +217,18 @@ span{
 
  /*--work projects page--*/
 .workprojects{
-    padding-right: 0;
-    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     position: relative;
-    left: 10%;
+    background-color: #b7b7b7;
 }
 .thumbnail{
     background-color: #b7b7b7;
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 400px;
+    padding: 2em;
+    margin: 3rem;
     
 }
 
@@ -234,11 +237,9 @@ span{
     
 }
 
-#marvelquizcontainer{
-    width: auto;
-    height: 21.5em;
-}
 .thumbnail img{
+    width: 300px;
+    height: 400px;
     filter: opacity(0.2);
     filter: grayscale(0.8);
     transition: filter 0.4s ease-in-out;
@@ -259,17 +260,54 @@ span{
     background-color:#b7b7b7;
 }
 
+#woofproject{
+    height: 220px;
+}
+
+#marvelquizcontainer {
+    height: 220px;
+}
+
+#emptracker {
+    height: 235px;
+}
+
+#lotsothoughts {
+    height: 219px;
+}
+
+#moviematesproject{
+    height: 218px;
+}
+
+#notetakerproject {
+    height: 235px;
+}
+
+.caption {
+    align-items: flex-end;
+    width: auto;
+    margin-top: 0em;
+    left: -40px;
+}
 
 .caption h3 {
     color:#414a7a;
     font-weight: bolder;
     letter-spacing: 0.5px;
+    font-size: 16px;
 }
 .caption p{
     color:#555;
     font-weight: bold;
+    font-size: 12px;
 }
 
+/* resume tab */
+.resumecontainer {
+    padding-right: 0;
+    padding-left: 0;
+}
 /*--contact me tab--*/
 
 .contactmecontainer{
